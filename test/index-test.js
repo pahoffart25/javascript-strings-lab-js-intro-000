@@ -11,4 +11,4 @@ var special = 'Hello ${special}!'
 it('interpolates a string in `conversation`', function() {
   expect(conversation).toEqual(`Let's talk about ${topic}.`)
 })
-var topic = 'space.'
+var topic = 'space'
